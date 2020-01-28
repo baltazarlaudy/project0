@@ -1,0 +1,57 @@
+.new img{
+    width: 50%;
+    float: left;
+    margin: 5px;
+}
+.news img{
+    width: 90%;
+}
+header{
+    background-color: black;
+}
+.contact{
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 100%;
+}
+.content{
+    padding: 5px;
+}
+#footer{
+    height: 100px;
+    background-color: black;
+}
+.footer{
+    padding: 10px;
+    color: aliceblue;
+    line-height: 20px;
+    text-align: center;
+}
+
+@media (max-width: 760px){
+    #section1 > img{
+        display: none;
+    }
+    #nav{
+        position: sticky;
+        top:0;
+    }
+    #footer{
+        background-color: aliceblue;
+        position: fixed;
+        bottom: 0;
+        height: auto;
+        width: 100%;
+    }
+    #footer p{
+        color: black;
+    }
+    aside img{
+        display: none;
+    }
+    .aside{
+        margin-top: 2px;
+    }
+}

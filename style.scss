@@ -1,0 +1,45 @@
+$color: rgba(105, 71, 71, 0.274);
+$border: 0.5px solid rgba(0, 0, 0, 0.253);
+
+h3:hover{
+    color: $color;
+    text-decoration: none;
+}
+table{
+    margin: auto;
+    border: $border;
+    width: 100%;
+    th{
+        background-color: $color;
+        border: $border;
+        padding: 5px;
+    }
+    tr{
+        border: $border;
+    }
+    td{
+        border: $border;
+    }
+}
+.aside{
+    border: $border;
+}
+.article{
+    border: $border;
+}
+.aside{
+    border: $border;
+    padding: 5px;
+}
+ .section{
+    border: $border;
+    padding: 5px;
+}
+.author{
+    color: $color;
+    float: right;
+}
+.date-time{
+    color: $color;
+    float: right;
+}

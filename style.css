@@ -1,0 +1,40 @@
+h3:hover {
+  color: rgba(105, 71, 71, 0.274);
+  text-decoration: none; }
+
+table {
+  margin: auto;
+  border: 0.5px solid rgba(0, 0, 0, 0.253);
+  width: 100%; }
+  table th {
+    background-color: rgba(105, 71, 71, 0.274);
+    border: 0.5px solid rgba(0, 0, 0, 0.253);
+    padding: 5px; }
+  table tr {
+    border: 0.5px solid rgba(0, 0, 0, 0.253); }
+  table td {
+    border: 0.5px solid rgba(0, 0, 0, 0.253); }
+
+.aside {
+  border: 0.5px solid rgba(0, 0, 0, 0.253); }
+
+.article {
+  border: 0.5px solid rgba(0, 0, 0, 0.253); }
+
+.aside {
+  border: 0.5px solid rgba(0, 0, 0, 0.253);
+  padding: 5px; }
+
+.section {
+  border: 0.5px solid rgba(0, 0, 0, 0.253);
+  padding: 5px; }
+
+.author {
+  color: rgba(105, 71, 71, 0.274);
+  float: right; }
+
+.date-time {
+  color: rgba(105, 71, 71, 0.274);
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */
